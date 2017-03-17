@@ -129,19 +129,40 @@ main section:nth-child(3)  {
   border-color: black;
 }
 
-main section:last-child{
+/*main section:last-child{
   border-bottom: solid 3px;
   border-top: solid 3px;
   background-color: grey;
+}*/
+
+
+
+
+
+#join-the-club {
+  clear: both;
+  display: inline-block;
+  background-color: grey;
+  margin: -10px;
+
 }
 
-.lefties{
+#join-the-club h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+}
+
+#join-the-club article {
+  clear: both;
   float: left;
-  width: 30%;
-  display: inline-block;;
-  /*vertical-align: text-top;*/
-  padding: 15px;
+  width: 40%;
   text-align: justify;
+  padding: 5%;
   margin-left: 5%;
-  font-stretch: expanded;
+}
+
+#join-the-club img {
+
+  max-width: 40%;
+  padding: 10px;
 }
